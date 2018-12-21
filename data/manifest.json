@@ -1,0 +1,21 @@
+{
+    "short_name": "S-food",
+    "name": "s-restaurants",
+    "icons": [
+      {
+        "src": "/img/M-1.png",
+        "type": "img/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/M-1.png",
+        "type": "img/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "../",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "../",
+    "theme_color": "#3367D6"
+  }
