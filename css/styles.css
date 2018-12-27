@@ -207,7 +207,7 @@ nav h1 a {
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
-  margin:10px 10px 0px 0px;
+  margin: 10px 10px 0px 0px;
   max-width: 100%;
   min-height: 248px;
   min-width: 100%;
@@ -354,13 +354,20 @@ nav h1 a {
 
   nav {
     height: 50px;
-}
+  }
 
-nav h1 a {
-  font-size: 10pt;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
+  nav h1 a {
+    font-size: 10pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  /* It will affect the main framework
+  #map {
+    height: 200px;
+  }
+  */
+
   .filter-options h2 {
     padding-top: 1px;
     margin: 0px 20px;
@@ -400,7 +407,7 @@ nav h1 a {
   /*restaurant-img*/
   #restaurants-list .restaurant-img {
     min-height: 150px;
-    margin:20px 10px 0px 0px;
+    margin: 20px 10px 0px 0px;
   }
 }
 
@@ -409,17 +416,14 @@ nav h1 a {
   margin: 10px 0 0 30px;
 }
 
-#restaurant-container, #reviews-container {
+#restaurant-container,
+#reviews-container {
   width: 45%;
 }
 
 .inside #map-container {
   top: 100px;
   width: 45%;
-}
-
-#map {
-  height: 200px;
 }
 
 .inside #footer {
@@ -444,7 +448,7 @@ nav h1 a {
   }
 
   #restaurants-list .restaurant-img {
-    margin:20px 10px 0px 0px;
+    margin: 20px 10px 0px 0px;
     min-height: 160px;
   }
 
@@ -466,5 +470,5 @@ nav h1 a {
   .inside #map-container {
     top: 100px;
     width: 45%;
-}
+  }
 }
