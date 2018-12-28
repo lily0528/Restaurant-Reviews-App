@@ -5,15 +5,15 @@
       {
         "src": "image/M-1.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "322x322"
       },
       {
         "src": "image/M-1.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "322x322"
       }
     ],
-    "start_url": "../",
+    "start_url": "https://lily0528.github.io/Restaurant-Reviews-App/",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "../",

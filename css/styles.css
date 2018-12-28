@@ -381,32 +381,32 @@ nav h1 a {
     align-items: center;
   }
 
-  /*filter-options select*/
+ 
   .filter-options select {
     height: 20px;
     margin: 10px;
     padding: 0 10px;
     width: 130px;
   }
-
-  /*restaurants-list */
+  #restaurants-list li a {
+    margin: 8px 10px 10px 40px;
+  }
+  
   #restaurants-list {
     padding: 1px 10px 10px;
   }
 
   #restaurants-list li {
-   /* width: 40%;*/
+    /*width: 40%;*/
     min-width: 200px;
     min-height: 280px;
   }
 
-  /*restaurant-img*/
   #restaurants-list .restaurant-img {
   /*  max-height: 150px;*/
     margin: 20px 10px 0px 0px;
   }
 }
-
 
 /* ====================== min-width:660px ====================== */
 @media screen and (min-width:660px) {
