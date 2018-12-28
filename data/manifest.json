@@ -3,13 +3,13 @@
     "name": "s-restaurants",
     "icons": [
       {
-        "src": "../img/M-1.png",
-        "type": "../img/png",
+        "src": "image/M-1.png",
+        "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "../img/M-1.png",
-        "type": "../img/png",
+        "src": "image/M-1.png",
+        "type": "image/png",
         "sizes": "512x512"
       }
     ],

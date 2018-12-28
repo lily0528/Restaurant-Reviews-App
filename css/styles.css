@@ -6,7 +6,7 @@ td,
 th,
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #333;
   line-height: 1.5;
 }
@@ -103,7 +103,7 @@ nav h1 a {
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
-  background-color: #eee;
+  /*background-color: #eee;*/
   font-size: 17px;
   margin: 0;
   width: calc(50% - 80px);
@@ -144,7 +144,6 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 80px;
-  /*lily modified*/
   background-color: #3397DB;
   display: flex;
   flex-flow: row wrap;
@@ -158,7 +157,6 @@ nav h1 a {
   line-height: 1;
   margin: 10px 20px;
   padding-top: 8px;
-  /* lily Add */
 }
 
 .filter-options select {
@@ -172,8 +170,6 @@ nav h1 a {
   padding: 0 10px;
   width: 200px;
 }
-
-/*lily Add*/
 .select-list {
   display: flex;
   flex-wrap: wrap;
@@ -182,26 +178,27 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
+  /*max-width: 1200px;*/
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 0;
-  padding: 30px 15px 60px;
-  text-align: center;
-  /*lily Add*/
+  margin: 0 auto;
+  padding: 30px 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 #restaurants-list li {
+  /*display: inline-block;*/
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial, sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 0 10px 25px;
   text-align: left;
-  width: 270px;
+  /*max-width: 300px;*/
+  width: 85%;
 }
 
 #restaurants-list .restaurant-img {
@@ -209,7 +206,7 @@ nav h1 a {
   display: block;
   margin: 10px 10px 0px 0px;
   max-width: 100%;
-  min-height: 248px;
+  /*min-height: 248px;*/
   min-width: 100%;
 }
 
@@ -235,28 +232,32 @@ nav h1 a {
   color: #fff;
   display: inline-block;
   font-size: 10pt;
-  margin: 15px 0 0;
-  padding: 8px 30px 10px;
+  margin: auto;
+  padding: 10px 30px 8px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 40%;
 }
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  position: fixed;
-  top: 0;
+  /*position: fixed;
+  top: 0;*/
   width: 100%;
   z-index: 1000;
 }
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
+  /*position: fixed;*/
   right: 0;
   top: 80px;
-  width: 50%;
+  height: 300px;
+  width: 100%;
 }
 
 .inside #map {
@@ -268,7 +269,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 
 #restaurant-name {
@@ -308,13 +309,13 @@ nav h1 a {
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
-  width: 50%;
+  padding: 10px 10px 30px;
+  width: 100%;
 }
 
-#reviews-container {
+/*#reviews-container {
   padding: 30px 40px 80px;
-}
+}*/
 
 #reviews-container h2 {
   color: #f58500;
@@ -338,7 +339,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: 90%;
 }
 
 #reviews-list li p {
@@ -349,7 +350,7 @@ nav h1 a {
   color: #666;
 }
 
-/* ====================== min-width:333px Lily Add====================== */
+/* ====================== min-width:333px ====================== */
 @media screen and (min-width:333px) {
 
   nav {
@@ -361,12 +362,6 @@ nav h1 a {
     letter-spacing: 5px;
     text-transform: uppercase;
   }
-
-  /* It will affect the main framework
-  #map {
-    height: 200px;
-  }
-  */
 
   .filter-options h2 {
     padding-top: 1px;
@@ -400,56 +395,42 @@ nav h1 a {
   }
 
   #restaurants-list li {
-    width: 250px;
+   /* width: 40%;*/
+    min-width: 200px;
     min-height: 280px;
   }
 
   /*restaurant-img*/
   #restaurants-list .restaurant-img {
-    min-height: 150px;
+  /*  max-height: 150px;*/
     margin: 20px 10px 0px 0px;
   }
 }
 
-#restaurants-list li a {
-  padding: 8px 30px 10px;
-  margin: 10px 0 0 30px;
-}
 
-#restaurant-container,
-#reviews-container {
-  width: 45%;
-}
-
-.inside #map-container {
-  top: 100px;
-  width: 45%;
-}
-
-.inside #footer {
-  width: 40%;
-}
-
-/* ====================== min-width:776px  Lily Add====================== */
-@media screen and (min-width:776px) {
+/* ====================== min-width:660px ====================== */
+@media screen and (min-width:660px) {
   .filter-options select {
     width: 200px;
   }
 
   #restaurants-list {
     margin: 0;
-    padding: 30px 15px 60px;
+    padding: 10px 15px 60px;
   }
 
   #restaurants-list li {
     margin: 10px;
-    width: 270px;
-    min-height: 280px;
+    /*width: 40%;
+    min-height: 380px;*/
+    max-width: 300px;
+    padding: 0 10px 25px;
+    text-align: left;
   }
 
   #restaurants-list .restaurant-img {
     margin: 20px 10px 0px 0px;
-    min-height: 160px;
+  /*  min-height: 260px;*/
   }
 
   #restaurants-list li h1 {
@@ -466,9 +447,37 @@ nav h1 a {
     padding: 8px 30px 10px;
     margin: 10px 0 0 60px;
   }
+}
 
+/* ====================== min-width:1200px ====================== */
+@media screen and (min-width: 1200px) {
+
+  #restaurants-list li {
+    width: 20%;
+  }
+  #restaurant-cuisine {
+    width: 50%;
+}
+  .inside header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
   .inside #map-container {
-    top: 100px;
-    width: 45%;
+    height: 87%;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 50%;
+  }
+  .inside #footer {
+    width: 40%;
+    margin: 0;
+  }
+  #restaurant-img {
+    width: 40%;
+  }
+  #reviews-list li {
+    width: 40%;
   }
 }
