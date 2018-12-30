@@ -3,14 +3,14 @@
     "name": "s-restaurants",
     "icons": [
       {
-        "src": "image/M-1.png",
+        "src": "image/M-2.png",
         "type": "image/png",
-        "sizes": "322x322"
+        "sizes": "119x119"
       },
       {
         "src": "image/M-1.png",
         "type": "image/png",
-        "sizes": "322x322"
+        "sizes": "183x183"
       }
     ],
     "start_url": "https://lily0528.github.io/Restaurant-Reviews-App/",
