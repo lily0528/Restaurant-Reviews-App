@@ -29,7 +29,7 @@ self.addEventListener('install',(event) =>{
             'data/image/M-1.png',
             'data/image/M-2.png',
             'data/restaurants.json',
-            'data/mainfest.json',
+            'data/manifest.json',
             'css/styles.css',
               'js/dbhelper.js',
               'js/main.js',
