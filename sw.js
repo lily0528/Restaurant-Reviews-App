@@ -45,7 +45,7 @@ self.addEventListener('install',(event) =>{
             'restaurant.html?id=7',
             'restaurant.html?id=8',
             'restaurant.html?id=9',
-            'restaurant.html?id=10',
+            'restaurant.html?id=10'
         ]
         );
         })
