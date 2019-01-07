@@ -12,6 +12,7 @@ self.addEventListener('activate', event =>{
         })
     );
 })
+
 self.addEventListener('install',(event) =>{
     event.waitUntil(
         caches.open(staticCache).then(function(cache){
@@ -51,7 +52,6 @@ self.addEventListener('install',(event) =>{
         })
     );
 })
-
 
 self.addEventListener('fetch', (event) => {
     event.respondWith(

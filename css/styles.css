@@ -436,14 +436,17 @@ nav h1 a {
   #restaurants-list li {
     width: 20%;
   }
+
   #restaurant-cuisine {
     width: 50%;
-}
+  }
+
   .inside header {
     position: fixed;
     top: 0;
     z-index: 1000;
   }
+
   .inside #map-container {
     height: 87%;
     position: fixed;
@@ -451,13 +454,16 @@ nav h1 a {
     top: 80px;
     width: 50%;
   }
+
   .inside #footer {
     width: 40%;
     margin: 0;
   }
+  
   #restaurant-img {
     width: 40%;
   }
+
   #reviews-list li {
     width: 40%;
   }
