@@ -105,7 +105,7 @@ nav h1 a {
   list-style: none;
   font-size: 17px;
   margin: 0;
-  width: calc(50% - 80px);
+  width: calc(100% - 80px);
 }
 
 /* Display list items side by side */
