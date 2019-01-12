@@ -149,6 +149,9 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     ul.append(createRestaurantHTML(restaurant));
   });
+  for (let i = 0; i <= 3; i++) {
+    ul.append(document.createElement('li'));
+  }
   addMarkersToMap();
 }
 
