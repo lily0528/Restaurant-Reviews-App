@@ -242,6 +242,14 @@ nav h1 a {
   width: 40%;
 }
 
+#restaurants-list li:empty {
+  content: '';
+  padding: 0;
+  min-height: 0;
+  background-color: #f3f3f3;
+  border: 0;
+}
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   width: 100%;
